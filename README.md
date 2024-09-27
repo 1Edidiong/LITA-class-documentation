@@ -19,3 +19,16 @@ The major source of data used was recieved from International breweries
 
 - Github for
   1. portfolio building
+ 
+###Data cleaning and preparations
+the following instructions and commands were perfprmed during data cleaning and preparations
+1. data loading and inspection
+2. handling missing variables
+3. data cleaning and formatting
+
+
+###Exploratory data analysis
+This was carried out to answer some questions on the data such as;
+- what is the overall sales trend
+- which products are top sellers
+- what are the product on peak sales?
