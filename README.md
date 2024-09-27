@@ -32,3 +32,11 @@ This was carried out to answer some questions on the data such as;
 - what is the overall sales trend
 - which products are top sellers
 - what are the product on peak sales?
+
+
+### Data Analysis
+some basic functions, queries and dax expressions used in this analysis include;
+
+```SQL
+Select * from table 1
+where condition = true
