@@ -1,16 +1,16 @@
-# LITA-class-documentation
+ LITA-CAPSTONE PROJECT 1
 
-## Project Title: Data collection and analysis
+## PROJECT TITLE: SALES DATA ANALYSIS
 
 ### Project Overview
-This data analysis aims at analysing the data collected from International breweries to have an insight of the sales performance and profit margin generated from the store inorder to make useful decisions on the progress of the business. This will also give first hand information for future turnover.
+This repository aims at giving a comprehensive insight of the sales performance of a Delvin Retail Store inorder to make useful decisions on the progress of the business. This analyses will expose sales trends of various products soled in the store at different location. This will give first hand information on geographical demands and product preference inoder to optimize business present and future turnover.
 
 ### Data Sources
-The major source of data used was recieved from International breweries
+The major source of data used was recieved from Delvin Retail Store
 
 ### Tools Used
-- microsoft excel for [Download here](https://www.microsoft.com)
-  1. data cleaning
+- microsoft excel for data
+  1. cleaning
   2. analysis
   3. visualization
 
@@ -21,19 +21,29 @@ The major source of data used was recieved from International breweries
   1. portfolio building
  
 ###Data cleaning and preparations
-the following instructions and commands were perfprmed during data cleaning and preparations
+The following instructions and commands were performed during data cleaning and preparations
 1. data loading and inspection
-2. handling missing variables
-3. data cleaning and formatting
+2. handling duplicate variables
+3. data evaluation
 
 
-###Exploratory data analysis
+###Exploratory data analysis (excel)
 This was carried out to answer some questions on the data such as;
-- what is the overall sales trend
-- which products are top sellers
-- what are the product on peak sales?
+- Perform an initial exploration of the sales data. 
+- Use pivot tables to summarize total sales by product, region, and month.
+- Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.
+- Create any other interesting report.
 
-
+    ###Exploratory data analysis (sql)
+- Retrieve the total sales for each product category.
+- Find the number of sales transactions in each region.
+- Find the highest-selling product by total sales value.
+- Calculate total revenue per product.
+- Calculate monthly sales totals for the current year.
+- Find the top 5 customers by total purchase amount.
+- Calculate the percentage of total sales contributed by each region.
+- Identify products with no sales in the last quarter.
+ 
 ### Data Analysis
 some basic functions, queries and dax expressions used in this analysis include;
 
