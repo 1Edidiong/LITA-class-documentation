@@ -20,21 +20,22 @@ The major source of data used was recieved from Delvin Retail Store
 - Github for
   1. portfolio building
  
-###Data cleaning and preparations
+### Data cleaning and preparations
 The following instructions and commands were performed during data cleaning and preparations
 1. data loading and inspection
 2. handling duplicate variables
 3. data evaluation
 
 
-###Exploratory data analysis (excel)
+### Exploratory data analysis (excel)
 This was carried out to answer some questions on the data such as;
 - Perform an initial exploration of the sales data. 
 - Use pivot tables to summarize total sales by product, region, and month.
 - Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.
 - Create any other interesting report.
 
-    ###Exploratory data analysis (sql)
+### Exploratory data analysis (sql)
+This was carried out to query the data obtained from excel analysis. The queries include;
 - Retrieve the total sales for each product category.
 - Find the number of sales transactions in each region.
 - Find the highest-selling product by total sales value.
@@ -45,7 +46,14 @@ This was carried out to answer some questions on the data such as;
 - Identify products with no sales in the last quarter.
  
 ### Data Analysis
-some basic functions, queries and dax expressions used in this analysis include;
+some basic functions and queries used in this analysis include;
+
+`````Excel`````
+* Averageif
+* Sumif
+* product function
+* Insert Tables (pivot tables)
+* Graphical representation of data using bar and line charts  
 
 ```SQL
 Select * from table 1
